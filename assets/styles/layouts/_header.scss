@@ -1,0 +1,53 @@
+#headerArea {
+  position: fixed;
+  height: 125px;
+  z-index: 1000;
+  @include transition(0.10 ease);
+  nav {
+    .menu {
+      i {
+        font-size: 20px;
+      }
+      span {
+        font-size: 20px;
+        margin-left: 5px;
+      }
+    }
+  }
+  .logo {
+    &-img {
+      box-sizing: border-box;
+      padding-top: 15px;
+      img {
+        width: 95%;
+      }
+    }
+  }
+  .reservation {
+    font-size: 20px;
+    ul {
+      li {
+        padding: 0 10px;
+      }
+    }
+    h1 {
+      padding-left: 30px;
+      a {
+        &::after {
+          content: "";
+          position: absolute;
+          width: 7%;
+          height: 2px;
+          background-color: red;
+          right: 10%;
+          top: 65px;
+        }
+      }
+    }
+  }
+}
+
+.scrolled {
+  background-color: white;
+  box-shadow: 0 0 7px 0px #b7b2b2;
+}

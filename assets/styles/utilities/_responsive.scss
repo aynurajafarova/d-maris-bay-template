@@ -1,0 +1,24 @@
+// Extra large devices (large desktops, 1200px and up)
+@include extra-large {
+  @include col(xl);
+}
+
+// Large devices (desktops, 992px and up)
+@include large {
+  @include col(lg);
+}
+
+// Medium devices (tablets, 768px and up)
+@include medium {
+  @include col(md);
+}
+
+// Small devices (landscape phones, 576px and up)
+@include small {
+  @include col(sm);
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@include extra-small {
+  @include col(xs);
+}
