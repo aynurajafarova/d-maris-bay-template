@@ -390,6 +390,15 @@ a {
   position: relative;
   z-index: 111;
   height: 100vh; }
+  #mainSlider .main-slider-header {
+    position: absolute;
+    z-index: 113;
+    top: 35%;
+    left: 7%; }
+    #mainSlider .main-slider-header h1 {
+      color: white;
+      font-size: 75px;
+      text-align: center; }
   #mainSlider .main-slider-photos {
     height: 100%; }
     #mainSlider .main-slider-photos .slider-photo-item {
@@ -419,7 +428,7 @@ a {
       z-index: 111; }
     #mainSlider .main-slider-photos .owl-dots {
       position: absolute;
-      top: 90%;
+      top: 80%;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
