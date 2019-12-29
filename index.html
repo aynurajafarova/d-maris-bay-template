@@ -16,24 +16,30 @@
     />
     <!-- Icons -->
     <link rel="stylesheet" href="./assets/fonts/icons/style.css" />
+    <!-- OwlCarousel -->
+    <link
+      rel="stylesheet"
+      href="./vendors/OwlCarousel/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./vendors/OwlCarousel/assets/owl.theme.default.min.css"
+    />
     <link rel="stylesheet" href="./assets/styles/main.css" />
   </head>
   <body>
     <header id="headerArea" class="col-xl-12">
       <div class="container">
         <div class="row">
-          <nav class="col-xl-2  centered">
+          <nav class="col-xl-3 d-flex align-items-center">
             <div class="menu">
               <i class="icon-menu"></i>
               <span>Menu</span>
             </div>
           </nav>
-          <div class="logo col-xl-7 centered">
+          <div class="logo col-xl-6 centered">
             <div class="logo-img">
-              <img
-                src="./assets/images/logo/logo-sticky.svg"
-                alt="d-maris-bay-logo"
-              />
+              <img src="./assets/images/logo/logo.svg" alt="d-maris-bay-logo" />
             </div>
           </div>
           <div class="reservation col-xl-3 d-flex align-items-center">
@@ -49,7 +55,36 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <section id="mainSlider">
+        <div class="owl-carousel main-slider-photos">
+          <div class="slider-photo-item">
+            <img
+              src="./assets/images/main-slider/AH-8708-D_Maris.21170d8bb5043cb355219e8f9f248e2a.jpg"
+              alt=""
+            />
+          </div>
+          <div class="slider-photo-item">
+            <img
+              src="./assets/images/main-slider/D-Maris-Bay_BeachesPool_4.33b2cb9532b4e26305451b3ccf737f72.jpg"
+              alt=""
+            />
+          </div>
+          <div class="slider-photo-item">
+            <img
+              src="./assets/images/main-slider/D-Maris-Bay_BeachesPool_1.33b2cb9532b4e26305451b3ccf737f72.jpg"
+              alt=""
+            />
+          </div>
+          <div class="slider-photo-item">
+            <img
+              src="./assets/images/main-slider/GB-2252-D_Marisedited.21170d8bb5043cb355219e8f9f248e2a.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!-- jQuery -->
     <script
@@ -58,5 +93,8 @@
       crossorigin="anonymous"
     ></script>
     <script src="./assets/js/main.js"></script>
+    <!-- OwlCarousel -->
+    <script src="./vendors/OwlCarousel/owl.carousel.min.js"></script>
+    <script src="./assets/js/owlCarousel.js"></script>
   </body>
 </html>

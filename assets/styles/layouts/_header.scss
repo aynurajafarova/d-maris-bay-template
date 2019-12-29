@@ -1,15 +1,21 @@
+%header-common-style {
+  font-size: 20px;
+  color: white;
+}
+
 #headerArea {
   position: fixed;
   height: 125px;
   z-index: 1000;
-  @include transition(0.10 ease);
+  @include transition(0.1 ease);
   nav {
     .menu {
       i {
-        font-size: 20px;
+        @extend %header-common-style;
       }
       span {
-        font-size: 20px;
+        @extend %header-common-style;
+
         margin-left: 5px;
       }
     }
@@ -19,28 +25,32 @@
       box-sizing: border-box;
       padding-top: 15px;
       img {
-        width: 95%;
+        width: 100%;
       }
     }
   }
   .reservation {
-    font-size: 20px;
     ul {
       li {
         padding: 0 10px;
+        a {
+          @extend %header-common-style;
+        }
       }
     }
     h1 {
       padding-left: 30px;
       a {
+        @extend %header-common-style;
+
         &::after {
           content: "";
           position: absolute;
           width: 7%;
           height: 2px;
-          background-color: red;
+          background-color: white;
           right: 10%;
-          top: 65px;
+          top: 70px;
         }
       }
     }
