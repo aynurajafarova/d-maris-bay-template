@@ -1,3 +1,23 @@
+%dots-style {
+  position: absolute;
+  top: 80%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  z-index: 112;
+  .owl-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    background: white;
+    margin: 0 3px;
+  }
+  .active {
+    background-color: #7b7676;
+  }
+}
+
 #mainSlider {
   position: relative;
   z-index: 111;
@@ -36,25 +56,41 @@
       z-index: 111;
     }
     .owl-dots {
-      position: absolute;
-      top: 80%;
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      z-index: 112;
-      .owl-dot {
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        display: inline-block;
-        background: white;
-        margin: 0 3px;
-      }
-      .active {
-        background-color: #7b7676;
-      }
+      @extend %dots-style;
     }
     &::after {
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-color: black;
+      z-index: 11;
+      top: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.2;
+    }
+  }
+}
+
+// momentsSlider
+#momentsSlider {
+  position: relative;
+  height: 550px;
+  .moments-slider-photos {
+    position: relative;
+    height: 550px;
+    .moments-slider-photo-item {
+      height: 550px;
+      img {
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .owl-dots {
+      @extend %dots-style;
+    }
+     &::after {
       content: "";
       position: absolute;
       height: 100%;
