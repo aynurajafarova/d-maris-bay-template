@@ -1,0 +1,25 @@
+.main-btn {
+  margin-top: 10%;
+  a {
+    font-size: 1.2em;
+    letter-spacing: 0.45px;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      height: 1px;
+      width: 100%;
+      background: $color-roman-coffee;
+      top: 30px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0;
+    }
+    &:hover::after {
+      opacity: 1;
+      @include transition(0.4s linear);
+      @include transform(translateY(-5px));
+    }
+  }
+}
