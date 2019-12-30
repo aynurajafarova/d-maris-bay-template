@@ -1,0 +1,22 @@
+#members {
+  background-image: url("../images/bg-footer.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 25px;
+  padding-bottom: 40px;
+  h1 {
+    font-size: 25px;
+    line-height: 2;
+  }
+  .members-list {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    &-item {
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
