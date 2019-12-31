@@ -179,6 +179,9 @@ a {
 .text-center {
   text-align: center; }
 
+.text-uppercase {
+  text-transform: uppercase; }
+
 @media (min-width: 1200px) {
   .col-xl-1 {
     width: 8.3333333333%; }
@@ -557,13 +560,13 @@ a {
   color: #55565a;
   line-height: 1.1; }
 
-.main-btn {
+.btn-underline {
   margin-top: 10%; }
-  .main-btn a {
+  .btn-underline a {
     font-size: 1.2em;
     letter-spacing: 0.45px;
     position: relative; }
-    .main-btn a::after {
+    .btn-underline a::after {
       content: "";
       position: absolute;
       height: 1px;
@@ -574,12 +577,17 @@ a {
       right: 0;
       bottom: 0;
       opacity: 0; }
-    .main-btn a:hover::after {
+    .btn-underline a:hover::after {
       opacity: 1;
       -webkit-transition: 0.4s linear;
       transition: 0.4s linear;
       -webkit-transform: translateY(-5px);
       transform: translateY(-5px); }
+
+.btn-basic {
+  margin-top: 25%; }
+  .btn-basic a {
+    font-size: 1.2em; }
 
 #members {
   background-image: url("../images/bg-footer.png");
@@ -598,5 +606,56 @@ a {
       width: 100%;
       -o-object-fit: cover;
          object-fit: cover; }
+
+#department .container-img .restaurants, #department .container-img .bodyism {
+  height: 550px;
+  background-repeat: no-repeat;
+  position: relative;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  overflow: hidden; }
+  #department .container-img .restaurants .department-content, #department .container-img .bodyism .department-content {
+    position: absolute;
+    z-index: 1111;
+    border: 5px solid white;
+    width: 70%;
+    height: 65%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 70px;
+    top: 18%;
+    left: 14%; }
+    #department .container-img .restaurants .department-content h1 a, #department .container-img .bodyism .department-content h1 a {
+      font-size: 3.5em; }
+  #department .container-img .restaurants::after, #department .container-img .bodyism::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index: 11;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.3; }
+
+#department {
+  height: 550px;
+  width: 100%;
+  z-index: 111;
+  overflow: hidden; }
+  #department .container-img {
+    overflow: hidden;
+    width: 50%; }
+    #department .container-img .restaurants {
+      background-image: url("../images/RH-0449-D_Marisedited.534dbc6e4f384855f885f656692a6a22.jpg"); }
+    #department .container-img .bodyism {
+      background-image: url("../images/DMarisBay_Bodyism.7bafba6a88af78251a4abeb6b79b42fe.jpg"); }
+    #department .container-img:hover .restaurants {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1); }
+    #department .container-img:hover .bodyism {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1); }
 
 /*# sourceMappingURL=main.css.map */

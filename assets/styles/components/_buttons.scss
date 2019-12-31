@@ -1,4 +1,4 @@
-.main-btn {
+.btn-underline {
   margin-top: 10%;
   a {
     font-size: 1.2em;
@@ -21,5 +21,14 @@
       @include transition(0.4s linear);
       @include transform(translateY(-5px));
     }
+  }
+}
+
+.btn-basic{
+  margin-top: 25%;
+  a {
+    font-size: 1.2em;
+    // letter-spacing: 0.45px;
+    // position: relative;
   }
 }

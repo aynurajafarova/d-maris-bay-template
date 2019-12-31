@@ -1,0 +1,63 @@
+%img-styles {
+  height: 550px;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: 0.5s ease;
+  overflow: hidden;
+  .department-content {
+    position: absolute;
+    z-index: 1111;
+    border: 5px solid white;
+    width: 70%;
+    height: 65%;
+    box-sizing: border-box;
+    padding: 70px;
+    top: 18%;
+    left: 14%;
+    h1 {
+      a {
+        font-size: 3.5em;
+      }
+    }
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index: 11;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.3;
+  }
+}
+
+#department {
+  height: 550px;
+  width: 100%;
+  z-index: 111;
+  overflow: hidden;
+  .container-img {
+    overflow: hidden;
+    width: 50%;
+
+    .restaurants {
+      @extend %img-styles;
+      background-image: url("../images/RH-0449-D_Marisedited.534dbc6e4f384855f885f656692a6a22.jpg");
+    }
+    .bodyism {
+      @extend %img-styles;
+      background-image: url("../images/DMarisBay_Bodyism.7bafba6a88af78251a4abeb6b79b42fe.jpg");
+    }
+    &:hover {
+      .restaurants {
+        transform: scale(1.1);
+      }
+      .bodyism {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
