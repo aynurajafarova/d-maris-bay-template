@@ -158,6 +158,10 @@ a {
   justify-content: center;
 }
 
+.justify-space-between {
+  justify-content: space-between;
+}
+
 .align-items-center {
   align-items: center;
 }
@@ -167,13 +171,13 @@ a {
 }
 
 .text-roman-coffee {
-  color: #775C50;
+  color: #775c50;
 }
 
-.text-center{
+.text-center {
   text-align: center;
 }
 
-.text-uppercase{
+.text-uppercase {
   text-transform: uppercase;
 }

@@ -1,0 +1,98 @@
+footer {
+  .footer-main-contacts {
+    background-image: url("../images/bg-footer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    .get-in-touch {
+      padding: 20px 0;
+      &-details {
+        h1 {
+          font-size: 25px;
+          color: $color-roman-coffee;
+          line-height: 1.8;
+        }
+        p {
+          line-height: 1.6;
+          color: $color-abbey;
+        }
+        .mail-address {
+          color: $color-abbey;
+          display: inline-block;
+          margin-top: 12%;
+        }
+        .social-networks-list {
+          box-sizing: border-box;
+          padding: 10px 80px;
+          &-item {
+            margin-right: 4%;
+            a {
+              font-size: 20px;
+              padding: 6px;
+              background-color: $color-roman-coffee;
+              border-radius: 50%;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+    nav {
+      padding-top: 10px;
+      padding-bottom: 20px;
+      ul {
+        li {
+          margin-right: 3%;
+          a {
+            font-size: 20px;
+            color: $color-roman-coffee;
+            font-weight: 600;
+            position: relative;
+            &::after {
+              content: "";
+              position: absolute;
+              height: 1px;
+              width: 100%;
+              background: $color-roman-coffee;
+              top: 30px;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              opacity: 0;
+              @include transition(0.4s linear);
+            }
+            &:hover::after {
+              opacity: 1;
+              @include transform(translateY(-5px));
+            }
+          }
+        }
+      }
+    }
+    .copyright {
+      padding-top: 25px;
+      padding-bottom: 30px;
+      p {
+        font-size: 10px;
+        color: $color-abbey;
+      }
+    }
+    .members-list {
+      padding: 45px 0;
+    }
+  }
+
+  .footer-partners-list {
+    background-color: #f1e8e6;
+    padding: 40px 0;
+    &-item {
+      padding: 15px;
+      a {
+        display: inline-block;
+        max-width: 100px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

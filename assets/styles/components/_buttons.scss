@@ -15,16 +15,16 @@
       right: 0;
       bottom: 0;
       opacity: 0;
+      @include transition(0.4s linear);
     }
     &:hover::after {
       opacity: 1;
-      @include transition(0.4s linear);
       @include transform(translateY(-5px));
     }
   }
 }
 
-.btn-basic{
+.btn-basic {
   margin-top: 25%;
   a {
     font-size: 1.2em;
