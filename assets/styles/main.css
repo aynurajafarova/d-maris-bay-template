@@ -658,4 +658,44 @@ a {
       -webkit-transform: scale(1.1);
               transform: scale(1.1); }
 
+.header-title {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 65px 0; }
+  .header-title h1 {
+    color: #55565a;
+    font-size: 50px; }
+    .header-title h1 a {
+      color: #55565a; }
+
+#marisByExperiences {
+  padding-top: 25px;
+  padding-bottom: 90px; }
+  #marisByExperiences .maris-by-experiences-list-item {
+    width: 100%;
+    margin-top: 5%; }
+    #marisByExperiences .maris-by-experiences-list-item .experience-photo {
+      width: 50%;
+      overflow: hidden; }
+      #marisByExperiences .maris-by-experiences-list-item .experience-photo a {
+        display: inline-block; }
+        #marisByExperiences .maris-by-experiences-list-item .experience-photo a img {
+          width: 100%;
+          -webkit-transition: 0.5s ease;
+          transition: 0.5s ease; }
+    #marisByExperiences .maris-by-experiences-list-item .experience-content {
+      width: 50%;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      padding: 30px 65px; }
+      #marisByExperiences .maris-by-experiences-list-item .experience-content p {
+        font-size: 20px;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        padding-right: 20px;
+        line-height: 1.5; }
+    #marisByExperiences .maris-by-experiences-list-item:hover .experience-photo a img {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1); }
+
 /*# sourceMappingURL=main.css.map */

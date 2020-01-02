@@ -1,0 +1,41 @@
+#marisByExperiences {
+  padding-top: 25px;
+  padding-bottom: 90px;
+  .maris-by-experiences-list-item {
+    width: 100%;
+    margin-top: 5%;
+    .experience-photo {
+      width: 50%;
+
+      overflow: hidden;
+      a {
+        display: inline-block;
+
+        img {
+          width: 100%;
+          transition: 0.5s ease;
+        }
+      }
+    }
+    .experience-content {
+      width: 50%;
+      box-sizing: border-box;
+      padding: 30px 65px;
+      p {
+        font-size: 20px;
+        box-sizing: border-box;
+        padding-right: 20px;
+        line-height: 1.5;
+      }
+    }
+    &:hover {
+      .experience-photo {
+        a {
+          img {
+            @include transform(scale(1.1));
+          }
+        }
+      }
+    }
+  }
+}
