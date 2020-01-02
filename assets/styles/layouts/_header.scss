@@ -42,7 +42,6 @@
       padding-left: 30px;
       a {
         @extend %header-common-style;
-
         &::after {
           content: "";
           position: absolute;
@@ -60,4 +59,31 @@
 .scrolled {
   background-color: white;
   box-shadow: 0 0 7px 0px #b7b2b2;
+  nav {
+    .menu {
+      .icon-menu {
+        color: $color-roman-coffee !important;
+      }
+      span {
+        color: $color-roman-coffee !important;
+      }
+    }
+  }
+  .reservation {
+    ul {
+      li {
+        a {
+          color: $color-roman-coffee !important;
+        }
+      }
+    }
+    h1 {
+      a {
+        color: $color-roman-coffee !important;
+        &::after {
+          background-color: $color-roman-coffee !important ;
+        }
+      }
+    }
+  }
 }

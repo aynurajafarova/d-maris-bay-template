@@ -402,6 +402,16 @@ a {
   background-color: white;
   -webkit-box-shadow: 0 0 7px 0px #b7b2b2;
           box-shadow: 0 0 7px 0px #b7b2b2; }
+  .scrolled nav .menu .icon-menu {
+    color: #775c50 !important; }
+  .scrolled nav .menu span {
+    color: #775c50 !important; }
+  .scrolled .reservation ul li a {
+    color: #775c50 !important; }
+  .scrolled .reservation h1 a {
+    color: #775c50 !important; }
+    .scrolled .reservation h1 a::after {
+      background-color: #775c50 !important; }
 
 footer .footer-main-contacts {
   background-image: url("../images/bg-footer.png");
