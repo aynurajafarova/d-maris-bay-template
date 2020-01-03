@@ -127,6 +127,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+button {
+  cursor: pointer; }
+
 a {
   text-decoration: none; }
 
@@ -367,7 +370,7 @@ a {
 
   .col-xs-12 {
     width: 100%; } }
-#headerArea nav .menu i, #headerArea nav .menu span, #headerArea .reservation ul li a, #headerArea .reservation h1 a {
+#headerArea nav .menu .open-btn, #headerArea nav .menu .open-btn i, #headerArea .reservation ul li a {
   font-size: 20px;
   color: white; }
 
@@ -377,7 +380,10 @@ a {
   z-index: 1000;
   -webkit-transition: 0.1 ease;
   transition: 0.1 ease; }
-  #headerArea nav .menu span {
+  #headerArea nav .menu .open-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
     margin-left: 5px; }
   #headerArea .logo-img {
     -webkit-box-sizing: border-box;
@@ -385,33 +391,28 @@ a {
     padding-top: 15px; }
     #headerArea .logo-img img {
       width: 100%; }
-  #headerArea .reservation ul li {
-    padding: 0 10px; }
-  #headerArea .reservation h1 {
-    padding-left: 30px; }
-    #headerArea .reservation h1 a::after {
-      content: "";
-      position: absolute;
-      width: 7%;
-      height: 2px;
-      background-color: white;
-      right: 10%;
-      top: 70px; }
+  #headerArea .reservation ul {
+    padding-right: 20px; }
+    #headerArea .reservation ul li {
+      padding: 0 10px; }
 
 .scrolled {
   background-color: white;
   -webkit-box-shadow: 0 0 7px 0px #b7b2b2;
           box-shadow: 0 0 7px 0px #b7b2b2; }
-  .scrolled nav .menu .icon-menu {
+  .scrolled nav .menu .open-btn {
     color: #775c50 !important; }
-  .scrolled nav .menu span {
-    color: #775c50 !important; }
+    .scrolled nav .menu .open-btn .icon-menu {
+      color: #775c50 !important; }
   .scrolled .reservation ul li a {
     color: #775c50 !important; }
-  .scrolled .reservation h1 a {
-    color: #775c50 !important; }
-    .scrolled .reservation h1 a::after {
-      background-color: #775c50 !important; }
+  .scrolled .reservation .btn-booking {
+    border-bottom: 1px solid #775c50; }
+    .scrolled .reservation .btn-booking a {
+      color: #775c50 !important; }
+
+.left-side-nav {
+  display: none; }
 
 footer .footer-main-contacts {
   background-image: url("../images/bg-footer.png");
@@ -679,6 +680,16 @@ footer .footer-partners-list {
   .btn-basic a {
     font-size: 1.2em; }
 
+.btn-booking {
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  border-bottom: 1px solid white;
+  float: right; }
+  .btn-booking a {
+    font-size: 20px;
+    color: white; }
+
 #members {
   background-image: url("../images/bg-footer.png");
   background-repeat: no-repeat;
@@ -787,5 +798,78 @@ footer .footer-partners-list {
     #marisByExperiences .maris-by-experiences-list-item:hover .experience-photo a img {
       -webkit-transform: scale(1.1);
       transform: scale(1.1); }
+
+.left-side-nav {
+  position: fixed;
+  z-index: 111111;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.7); }
+  .left-side-nav-content {
+    height: 100%; }
+    .left-side-nav-content .main-nav {
+      overflow: auto;
+      height: 100%;
+      background-color: #faf9f9;
+      width: 600px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      padding: 30px 100px 60px 100px; }
+      .left-side-nav-content .main-nav .close-btn {
+        background-color: transparent;
+        border: none;
+        font-size: 16px;
+        color: #775c50;
+        outline: none; }
+        .left-side-nav-content .main-nav .close-btn .icon-cancel {
+          color: #775c50;
+          padding-right: 5px;
+          font-size: 14px; }
+      .left-side-nav-content .main-nav .btn-booking {
+        border-bottom: 1px solid #775c50; }
+        .left-side-nav-content .main-nav .btn-booking a {
+          color: #775c50;
+          font-size: 16px; }
+      .left-side-nav-content .main-nav ul {
+        margin-top: 5%; }
+        .left-side-nav-content .main-nav ul li {
+          padding: 12px 0; }
+          .left-side-nav-content .main-nav ul li a {
+            color: #775c50;
+            font-size: 30px; }
+      .left-side-nav-content .main-nav .service {
+        margin-top: 10%; }
+        .left-side-nav-content .main-nav .service li {
+          padding: 10px 0; }
+          .left-side-nav-content .main-nav .service li a {
+            font-size: 19px; }
+    .left-side-nav-content .sub-navigation {
+      min-width: 250px;
+      background-color: #775c50;
+      position: relative;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      padding: 30px; }
+      .left-side-nav-content .sub-navigation::after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        border-top: 100vh solid transparent;
+        border-left: 15px solid #775c50;
+        top: 0;
+        right: 0;
+        bottom: 0; }
+      .left-side-nav-content .sub-navigation ul li {
+        padding: 15px 0; }
+        .left-side-nav-content .sub-navigation ul li a {
+          color: white;
+          font-size: 19px; }
+
+.lock-body {
+  position: relative;
+  overflow: hidden;
+  height: 100%; }
 
 /*# sourceMappingURL=main.css.map */

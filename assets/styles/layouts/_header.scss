@@ -10,13 +10,15 @@
   @include transition(0.1 ease);
   nav {
     .menu {
-      i {
+      .open-btn {
+        background-color: transparent;
+        border: none;
+        outline: none;
         @extend %header-common-style;
-      }
-      span {
-        @extend %header-common-style;
-
         margin-left: 5px;
+        i {
+          @extend %header-common-style;
+        }
       }
     }
   }
@@ -31,25 +33,11 @@
   }
   .reservation {
     ul {
+      padding-right: 20px;
       li {
         padding: 0 10px;
         a {
           @extend %header-common-style;
-        }
-      }
-    }
-    h1 {
-      padding-left: 30px;
-      a {
-        @extend %header-common-style;
-        &::after {
-          content: "";
-          position: absolute;
-          width: 7%;
-          height: 2px;
-          background-color: white;
-          right: 10%;
-          top: 70px;
         }
       }
     }
@@ -61,11 +49,11 @@
   box-shadow: 0 0 7px 0px #b7b2b2;
   nav {
     .menu {
-      .icon-menu {
+      .open-btn {
         color: $color-roman-coffee !important;
-      }
-      span {
-        color: $color-roman-coffee !important;
+        .icon-menu {
+          color: $color-roman-coffee !important;
+        }
       }
     }
   }
@@ -77,13 +65,17 @@
         }
       }
     }
-    h1 {
+    .btn-booking {
+      border-bottom: 1px solid $color-roman-coffee;
+
       a {
         color: $color-roman-coffee !important;
-        &::after {
-          background-color: $color-roman-coffee !important ;
-        }
       }
     }
   }
+}
+
+
+.left-side-nav{
+  display: none;
 }

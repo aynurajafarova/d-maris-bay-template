@@ -28,7 +28,17 @@
   margin-top: 25%;
   a {
     font-size: 1.2em;
-    // letter-spacing: 0.45px;
-    // position: relative;
+  }
+}
+
+.btn-booking {
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  border-bottom: 1px solid white;
+  float: right;
+  a {
+    font-size: 20px;
+    color: white
   }
 }

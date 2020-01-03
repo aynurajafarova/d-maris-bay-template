@@ -1,0 +1,95 @@
+.left-side-nav {
+  position: fixed;
+  z-index: 111111;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  &-content {
+    height: 100%;
+
+    .main-nav {
+      // position: fixed;
+      // z-index: 1111111;
+      overflow: auto;
+      height: 100%;
+      background-color: #faf9f9;
+      width: 600px;
+      box-sizing: border-box;
+      padding: 30px 100px 60px 100px;
+      .close-btn {
+        background-color: transparent;
+        border: none;
+        font-size: 16px;
+        color: $color-roman-coffee;
+        outline: none;
+        .icon-cancel {
+          color: $color-roman-coffee;
+          padding-right: 5px;
+          font-size: 14px;
+        }
+      }
+      .btn-booking {
+        border-bottom: 1px solid $color-roman-coffee;
+        a {
+          color: $color-roman-coffee;
+          font-size: 16px;
+        }
+      }
+      ul {
+        margin-top: 5%;
+        li {
+          padding: 12px 0;
+          a {
+            color: $color-roman-coffee;
+            font-size: 30px;
+          }
+        }
+      }
+      .service {
+        margin-top: 10%;
+        li {
+          padding: 10px 0;
+          a {
+            font-size: 19px;
+          }
+        }
+      }
+    }
+    .sub-navigation {
+      min-width: 250px;
+      // height: 100%;
+      background-color: $color-roman-coffee;
+      position: relative;
+      box-sizing: border-box;
+      padding: 30px;
+      &::after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        border-top: 100vh solid transparent;
+        border-left: 15px solid $color-roman-coffee;
+
+        top: 0;
+        right: 0;
+        bottom: 0;
+      }
+      ul {
+        li {
+          padding: 15px 0;
+          a {
+            color: white;
+            font-size: 19px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.lock-body {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
