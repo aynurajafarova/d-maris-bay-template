@@ -491,7 +491,6 @@ footer .footer-partners-list {
 
 #mainSlider .main-slider-photos .owl-dots, #momentsSlider .moments-slider-photos .owl-dots {
   position: absolute;
-  top: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -548,6 +547,8 @@ footer .footer-partners-list {
       top: 50%;
       padding: 0 30px;
       z-index: 111; }
+    #mainSlider .main-slider-photos .owl-dots {
+      top: 80%; }
     #mainSlider .main-slider-photos::after {
       content: "";
       position: absolute;
@@ -572,6 +573,8 @@ footer .footer-partners-list {
         height: 100%;
         -o-object-fit: cover;
            object-fit: cover; }
+    #momentsSlider .moments-slider-photos .owl-dots {
+      top: 90%; }
     #momentsSlider .moments-slider-photos::after {
       content: "";
       position: absolute;
@@ -583,6 +586,28 @@ footer .footer-partners-list {
       left: 0;
       right: 0;
       opacity: 0.2; }
+  #momentsSlider .moments-slider-photos-content {
+    position: absolute;
+    top: 0; }
+    #momentsSlider .moments-slider-photos-content .moments-slider-photo-item-content {
+      margin-top: 5%;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      padding: 0px 40px; }
+      #momentsSlider .moments-slider-photos-content .moments-slider-photo-item-content .content-details {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        padding: 15px 95px;
+        border: 5px solid white; }
+        #momentsSlider .moments-slider-photos-content .moments-slider-photo-item-content .content-details h4 {
+          font-size: 20px;
+          color: white; }
+        #momentsSlider .moments-slider-photos-content .moments-slider-photo-item-content .content-details .title {
+          width: 60%;
+          margin: 3% auto; }
+          #momentsSlider .moments-slider-photos-content .moments-slider-photo-item-content .content-details .title h1 a {
+            font-size: 50px;
+            color: white; }
 
 #mainContent {
   background-image: url("../images/bg-wrapper.png");

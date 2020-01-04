@@ -1,6 +1,5 @@
 %dots-style {
   position: absolute;
-  top: 80%;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -57,6 +56,7 @@
     }
     .owl-dots {
       @extend %dots-style;
+      top: 80%;
     }
     &::after {
       content: "";
@@ -89,8 +89,9 @@
     }
     .owl-dots {
       @extend %dots-style;
+      top: 90%;
     }
-     &::after {
+    &::after {
       content: "";
       position: absolute;
       height: 100%;
@@ -101,6 +102,34 @@
       left: 0;
       right: 0;
       opacity: 0.2;
+    }
+  }
+  .moments-slider-photos-content {
+    position: absolute;
+    top: 0;
+    .moments-slider-photo-item-content {
+      margin-top: 5%;
+      box-sizing: border-box;
+      padding: 0px 40px;
+      .content-details {
+        box-sizing: border-box;
+        padding: 15px 95px;
+        border: 5px solid white;
+        h4 {
+          font-size: 20px;
+          color: white;
+        }
+        .title {
+          width: 60%;
+          margin: 3% auto;
+          h1 {
+            a {
+              font-size: 50px;
+              color: white;
+            }
+          }
+        }
+      }
     }
   }
 }

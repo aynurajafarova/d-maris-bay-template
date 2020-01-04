@@ -61,4 +61,33 @@ $(document).ready(function() {
       }
     }
   });
+
+  $(".moments-slider-photos-content").owlCarousel({
+    items: 1,
+    nav: false,
+    loop: true,
+    stagePadding: 200,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    margin: 35,
+    dots: true,
+    dotsEach: true,
+    smartSpeed: 1500,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      575: {
+        items: 2
+      },
+      767: {
+        items: 3
+      },
+      991: {
+        items: 1,
+        loop: true
+      }
+    }
+  });
 });
