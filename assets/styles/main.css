@@ -596,7 +596,7 @@ a {
   font-size: 20px;
   color: white; }
 
-#headerArea .menu .open-btn, #headerArea .small-header .header-wrapper .menu .open-btn, #headerArea .small-header .header-wrapper .call-us .call-btn {
+#headerArea .menu .open-btn, #headerArea .small-header .header-wrapper .menu .open-btn-white, #headerArea .small-header .header-wrapper .call-us .call-btn {
   background-color: transparent;
   border: none;
   outline: none; }
@@ -625,7 +625,7 @@ a {
     padding-top: 10px; }
     #headerArea .small-header .header-wrapper {
       padding-bottom: 10px; }
-      #headerArea .small-header .header-wrapper .menu .open-btn {
+      #headerArea .small-header .header-wrapper .menu .open-btn-white {
         font-size: 25px;
         color: white; }
       #headerArea .small-header .header-wrapper .logo .logo-photo {
