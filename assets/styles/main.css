@@ -190,6 +190,368 @@ a {
 .text-uppercase {
   text-transform: uppercase; }
 
+@media screen and (max-width: 575.98px) {
+  .col-xs-1 {
+    width: 8.3333333333%; }
+
+  .col-xs-2 {
+    width: 16.6666666667%; }
+
+  .col-xs-3 {
+    width: 25%; }
+
+  .col-xs-4 {
+    width: 33.3333333333%; }
+
+  .col-xs-5 {
+    width: 41.6666666667%; }
+
+  .col-xs-6 {
+    width: 50%; }
+
+  .col-xs-7 {
+    width: 58.3333333333%; }
+
+  .col-xs-8 {
+    width: 66.6666666667%; }
+
+  .col-xs-9 {
+    width: 75%; }
+
+  .col-xs-10 {
+    width: 83.3333333333%; }
+
+  .col-xs-11 {
+    width: 91.6666666667%; }
+
+  .col-xs-12 {
+    width: 100%; }
+
+  #headerArea {
+    padding-bottom: 0 !important; }
+    #headerArea .main-header {
+      display: none; }
+    #headerArea .small-header {
+      display: block !important; }
+    #headerArea .left-side-nav .sub-navigation {
+      display: none; }
+
+  #mainSlider {
+    top: 80px; }
+    #mainSlider .main-slider-header {
+      top: 15% !important; }
+      #mainSlider .main-slider-header h1 {
+        font-size: 35px !important; }
+    #mainSlider .main-slider-photos .owl-nav {
+      width: 80% !important;
+      top: 55% !important; }
+
+  #mainContent .content {
+    padding: 60px 20px !important; }
+    #mainContent .content-header h1 {
+      font-size: 35px; }
+    #mainContent .content-text p {
+      font-size: 20px !important; }
+  #mainContent .content-images-list {
+    display: none; }
+
+  #members .members-list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    #members .members-list-item {
+      margin-bottom: 5%; }
+
+  #momentsSlider {
+    display: none; }
+
+  #department .row {
+    display: block; }
+    #department .row .container-img {
+      width: 100%;
+      height: 450px; }
+      #department .row .container-img .department-content {
+        top: 8% !important;
+        padding: 75px 0 !important; }
+        #department .row .container-img .department-content h1 a {
+          font-size: 3em !important; }
+
+  #marisByExperiences .header-title h1 {
+    font-size: 35px; }
+  #marisByExperiences .maris-by-experiences-list-item {
+    display: block; }
+    #marisByExperiences .maris-by-experiences-list-item .experience-photo {
+      width: 100% !important; }
+    #marisByExperiences .maris-by-experiences-list-item .experience-content {
+      padding: 20px 25px !important;
+      width: 100% !important; }
+      #marisByExperiences .maris-by-experiences-list-item .experience-content .header-title {
+        padding: 18px 0; }
+
+  footer .footer-main-contacts .get-in-touch {
+    padding: 0 !important; }
+    footer .footer-main-contacts .get-in-touch .address {
+      display: none; }
+    footer .footer-main-contacts .get-in-touch-details {
+      margin-bottom: 10%; }
+  footer .footer-main-contacts nav ul {
+    display: block; }
+    footer .footer-main-contacts nav ul li {
+      padding: 10px 0;
+      text-align: center; }
+  footer .footer-main-contacts .members-list {
+    display: block;
+    padding: 10px 0 !important; }
+    footer .footer-main-contacts .members-list-item {
+      padding: 10px 0; }
+  footer .footer-partners-list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; } }
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .col-sm-1 {
+    width: 8.3333333333%; }
+
+  .col-sm-2 {
+    width: 16.6666666667%; }
+
+  .col-sm-3 {
+    width: 25%; }
+
+  .col-sm-4 {
+    width: 33.3333333333%; }
+
+  .col-sm-5 {
+    width: 41.6666666667%; }
+
+  .col-sm-6 {
+    width: 50%; }
+
+  .col-sm-7 {
+    width: 58.3333333333%; }
+
+  .col-sm-8 {
+    width: 66.6666666667%; }
+
+  .col-sm-9 {
+    width: 75%; }
+
+  .col-sm-10 {
+    width: 83.3333333333%; }
+
+  .col-sm-11 {
+    width: 91.6666666667%; }
+
+  .col-sm-12 {
+    width: 100%; }
+
+  #headerArea {
+    padding-bottom: 0 !important; }
+    #headerArea .main-header {
+      display: none; }
+    #headerArea .small-header {
+      display: block !important; }
+    #headerArea .left-side-nav .sub-navigation {
+      display: none; }
+
+  #mainSlider {
+    top: 100px; }
+    #mainSlider .main-slider-header h1 {
+      font-size: 35px !important; }
+    #mainSlider .main-slider-photos .owl-nav {
+      width: 90% !important;
+      top: 55% !important; }
+
+  #mainContent .content {
+    padding: 60px 110px !important; }
+    #mainContent .content-header h1 {
+      font-size: 40px; }
+  #mainContent .content-images-list {
+    height: 700px; }
+    #mainContent .content-images-list .img-first {
+      height: 225px !important; }
+    #mainContent .content-images-list .img-second {
+      height: 250px !important; }
+    #mainContent .content-images-list .img-third {
+      top: 33% !important;
+      height: 500px !important; }
+    #mainContent .content-images-list .img-fourth {
+      height: 190px !important; }
+
+  #members .members-list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    #members .members-list-item {
+      margin-bottom: 5%; }
+
+  #momentsSlider {
+    display: none; }
+
+  #department .row {
+    display: block; }
+    #department .row .container-img {
+      width: 100%;
+      height: 550px; }
+
+  #marisByExperiences .header-title h1 {
+    font-size: 35px; }
+  #marisByExperiences .maris-by-experiences-list-item {
+    display: block; }
+    #marisByExperiences .maris-by-experiences-list-item .experience-photo {
+      width: 100% !important; }
+    #marisByExperiences .maris-by-experiences-list-item .experience-content {
+      padding: 20px 25px !important;
+      width: 100% !important; }
+      #marisByExperiences .maris-by-experiences-list-item .experience-content .header-title {
+        padding: 18px 0; }
+
+  footer .footer-main-contacts .get-in-touch .address {
+    display: none; }
+  footer .footer-main-contacts .get-in-touch-details {
+    margin-bottom: 10%; }
+  footer .footer-main-contacts .members-list {
+    display: block; }
+    footer .footer-main-contacts .members-list-item {
+      padding: 10px 0; }
+  footer .footer-partners-list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; } }
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .col-md-1 {
+    width: 8.3333333333%; }
+
+  .col-md-2 {
+    width: 16.6666666667%; }
+
+  .col-md-3 {
+    width: 25%; }
+
+  .col-md-4 {
+    width: 33.3333333333%; }
+
+  .col-md-5 {
+    width: 41.6666666667%; }
+
+  .col-md-6 {
+    width: 50%; }
+
+  .col-md-7 {
+    width: 58.3333333333%; }
+
+  .col-md-8 {
+    width: 66.6666666667%; }
+
+  .col-md-9 {
+    width: 75%; }
+
+  .col-md-10 {
+    width: 83.3333333333%; }
+
+  .col-md-11 {
+    width: 91.6666666667%; }
+
+  .col-md-12 {
+    width: 100%; }
+
+  #headerArea .left-side-nav .left-side-nav-content .sub-navigation {
+    display: none; }
+
+  #mainSlider .main-slider-header h1 {
+    font-size: 60px !important; }
+  #mainSlider .main-slider-photos .owl-nav {
+    width: 90% !important; }
+
+  #mainContent .content {
+    padding: 60px 110px !important; }
+    #mainContent .content-header h1 {
+      font-size: 40px; }
+  #mainContent .content-images-list {
+    height: 700px; }
+    #mainContent .content-images-list .img-first {
+      height: 225px !important; }
+    #mainContent .content-images-list .img-second {
+      height: 250px !important; }
+    #mainContent .content-images-list .img-third {
+      top: 33% !important;
+      height: 500px !important; }
+    #mainContent .content-images-list .img-fourth {
+      height: 190px !important; }
+
+  #department {
+    height: 450px !important; }
+    #department .department-content {
+      padding: 75px 20px !important;
+      top: 8% !important; }
+      #department .department-content h1 a {
+        font-size: 3.1em !important; }
+
+  #marisByExperiences .header-title h1 {
+    font-size: 35px; }
+  #marisByExperiences .maris-by-experiences-list-item .experience-content {
+    padding: 0px 25px !important; }
+    #marisByExperiences .maris-by-experiences-list-item .experience-content .header-title {
+      padding: 18px 0; }
+
+  footer .footer-main-contacts nav ul li {
+    margin-right: 0 !important; } }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .col-lg-1 {
+    width: 8.3333333333%; }
+
+  .col-lg-2 {
+    width: 16.6666666667%; }
+
+  .col-lg-3 {
+    width: 25%; }
+
+  .col-lg-4 {
+    width: 33.3333333333%; }
+
+  .col-lg-5 {
+    width: 41.6666666667%; }
+
+  .col-lg-6 {
+    width: 50%; }
+
+  .col-lg-7 {
+    width: 58.3333333333%; }
+
+  .col-lg-8 {
+    width: 66.6666666667%; }
+
+  .col-lg-9 {
+    width: 75%; }
+
+  .col-lg-10 {
+    width: 83.3333333333%; }
+
+  .col-lg-11 {
+    width: 91.6666666667%; }
+
+  .col-lg-12 {
+    width: 100%; }
+
+  #mainSlider .main-slider-photos .owl-nav {
+    width: 92% !important; }
+
+  #mainContent .content-header h1 {
+    font-size: 35px; }
+  #mainContent .content-text p {
+    font-size: 20px !important; }
+  #mainContent .content-images-list .img-first {
+    height: 220px !important; }
+  #mainContent .content-images-list .img-second {
+    height: 280px !important; }
+  #mainContent .content-images-list .img-third {
+    height: 520px !important; }
+  #mainContent .content-images-list .img-fourth {
+    top: 78% !important;
+    height: 180px !important; }
+
+  #marisByExperiences .header-title h1 {
+    font-size: 40px; }
+  #marisByExperiences .maris-by-experiences-list-item .experience-content {
+    padding: 0px 40px !important; }
+    #marisByExperiences .maris-by-experiences-list-item .experience-content .header-title {
+      padding: 25px 0; } }
 @media (min-width: 1200px) {
   .col-xl-1 {
     width: 8.3333333333%; }
@@ -226,164 +588,23 @@ a {
 
   .col-xl-12 {
     width: 100%; } }
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .col-lg-1 {
-    width: 8.3333333333%; }
-
-  .col-lg-2 {
-    width: 16.6666666667%; }
-
-  .col-lg-3 {
-    width: 25%; }
-
-  .col-lg-4 {
-    width: 33.3333333333%; }
-
-  .col-lg-5 {
-    width: 41.6666666667%; }
-
-  .col-lg-6 {
-    width: 50%; }
-
-  .col-lg-7 {
-    width: 58.3333333333%; }
-
-  .col-lg-8 {
-    width: 66.6666666667%; }
-
-  .col-lg-9 {
-    width: 75%; }
-
-  .col-lg-10 {
-    width: 83.3333333333%; }
-
-  .col-lg-11 {
-    width: 91.6666666667%; }
-
-  .col-lg-12 {
-    width: 100%; } }
-@media screen and (min-width: 768px) and (max-width: 991.98px) {
-  .col-md-1 {
-    width: 8.3333333333%; }
-
-  .col-md-2 {
-    width: 16.6666666667%; }
-
-  .col-md-3 {
-    width: 25%; }
-
-  .col-md-4 {
-    width: 33.3333333333%; }
-
-  .col-md-5 {
-    width: 41.6666666667%; }
-
-  .col-md-6 {
-    width: 50%; }
-
-  .col-md-7 {
-    width: 58.3333333333%; }
-
-  .col-md-8 {
-    width: 66.6666666667%; }
-
-  .col-md-9 {
-    width: 75%; }
-
-  .col-md-10 {
-    width: 83.3333333333%; }
-
-  .col-md-11 {
-    width: 91.6666666667%; }
-
-  .col-md-12 {
-    width: 100%; } }
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .col-sm-1 {
-    width: 8.3333333333%; }
-
-  .col-sm-2 {
-    width: 16.6666666667%; }
-
-  .col-sm-3 {
-    width: 25%; }
-
-  .col-sm-4 {
-    width: 33.3333333333%; }
-
-  .col-sm-5 {
-    width: 41.6666666667%; }
-
-  .col-sm-6 {
-    width: 50%; }
-
-  .col-sm-7 {
-    width: 58.3333333333%; }
-
-  .col-sm-8 {
-    width: 66.6666666667%; }
-
-  .col-sm-9 {
-    width: 75%; }
-
-  .col-sm-10 {
-    width: 83.3333333333%; }
-
-  .col-sm-11 {
-    width: 91.6666666667%; }
-
-  .col-sm-12 {
-    width: 100%; } }
-@media screen and (max-width: 575.98px) {
-  .col-xs-1 {
-    width: 8.3333333333%; }
-
-  .col-xs-2 {
-    width: 16.6666666667%; }
-
-  .col-xs-3 {
-    width: 25%; }
-
-  .col-xs-4 {
-    width: 33.3333333333%; }
-
-  .col-xs-5 {
-    width: 41.6666666667%; }
-
-  .col-xs-6 {
-    width: 50%; }
-
-  .col-xs-7 {
-    width: 58.3333333333%; }
-
-  .col-xs-8 {
-    width: 66.6666666667%; }
-
-  .col-xs-9 {
-    width: 75%; }
-
-  .col-xs-10 {
-    width: 83.3333333333%; }
-
-  .col-xs-11 {
-    width: 91.6666666667%; }
-
-  .col-xs-12 {
-    width: 100%; } }
-#headerArea nav .menu .open-btn, #headerArea nav .menu .open-btn i, #headerArea .reservation ul li a {
+#headerArea .menu .open-btn, #headerArea .menu .open-btn i, #headerArea .reservation ul li a {
   font-size: 20px;
   color: white; }
 
+#headerArea .menu .open-btn, #headerArea .small-header .header-wrapper .menu .open-btn, #headerArea .small-header .header-wrapper .call-us .call-btn {
+  background-color: transparent;
+  border: none;
+  outline: none; }
+
 #headerArea {
+  width: 100%;
   position: fixed;
-  height: 125px;
   z-index: 1000;
+  padding-bottom: 10px;
   -webkit-transition: 0.1 ease;
   transition: 0.1 ease; }
-  #headerArea nav .menu .open-btn {
-    background-color: transparent;
-    border: none;
-    outline: none;
+  #headerArea .menu .open-btn {
     margin-left: 5px; }
   #headerArea .logo-img {
     -webkit-box-sizing: border-box;
@@ -394,15 +615,35 @@ a {
   #headerArea .reservation ul {
     padding-right: 20px; }
     #headerArea .reservation ul li {
-      padding: 0 10px; }
+      padding-left: 10px; }
+  #headerArea .small-header {
+    display: none;
+    padding-top: 10px; }
+    #headerArea .small-header .header-wrapper {
+      padding-bottom: 10px; }
+      #headerArea .small-header .header-wrapper .menu .open-btn {
+        font-size: 25px;
+        color: white; }
+      #headerArea .small-header .header-wrapper .logo .logo-photo {
+        width: 100%; }
+        #headerArea .small-header .header-wrapper .logo .logo-photo img {
+          width: 30%; }
+      #headerArea .small-header .header-wrapper .call-us .call-btn {
+        font-size: 25px;
+        color: white; }
+    #headerArea .small-header .booking {
+      background-color: white;
+      padding: 7px 0; }
+      #headerArea .small-header .booking a {
+        color: #775c50; }
 
 .scrolled {
   background-color: white;
   -webkit-box-shadow: 0 0 7px 0px #b7b2b2;
           box-shadow: 0 0 7px 0px #b7b2b2; }
-  .scrolled nav .menu .open-btn {
+  .scrolled .menu .open-btn {
     color: #775c50 !important; }
-    .scrolled nav .menu .open-btn .icon-menu {
+    .scrolled .menu .open-btn .icon-menu {
       color: #775c50 !important; }
   .scrolled .reservation ul li a {
     color: #775c50 !important; }
@@ -413,6 +654,9 @@ a {
 
 .left-side-nav {
   display: none; }
+
+.header-small {
+  background-color: #775c50; }
 
 footer .footer-main-contacts {
   background-image: url("../images/bg-footer.png");
@@ -432,9 +676,7 @@ footer .footer-main-contacts {
       display: inline-block;
       margin-top: 12%; }
     footer .footer-main-contacts .get-in-touch-details .social-networks-list {
-      -webkit-box-sizing: border-box;
-              box-sizing: border-box;
-      padding: 10px 80px; }
+      margin: 15px auto; }
       footer .footer-main-contacts .get-in-touch-details .social-networks-list-item {
         margin-right: 4%; }
         footer .footer-main-contacts .get-in-touch-details .social-networks-list-item a {
@@ -625,7 +867,8 @@ footer .footer-partners-list {
         letter-spacing: 0.3;
         letter-spacing: 0.3px;
         line-height: 1.1;
-        padding-bottom: 25px; }
+        padding-bottom: 25px;
+        color: #55565a; }
     #mainContent .content-images-list {
       position: relative; }
       #mainContent .content-images-list-item {
@@ -729,7 +972,6 @@ footer .footer-partners-list {
     padding-top: 20px;
     padding-bottom: 20px; }
     #members .members-list-item img {
-      width: 100%;
       -o-object-fit: cover;
          object-fit: cover; }
 
@@ -742,13 +984,13 @@ footer .footer-partners-list {
   overflow: hidden; }
   #department .container-img .restaurants .department-content, #department .container-img .bodyism .department-content {
     position: absolute;
-    z-index: 1111;
+    z-index: 111;
     border: 5px solid white;
     width: 70%;
     height: 65%;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    padding: 70px;
+    padding: 75px 45px;
     top: 18%;
     left: 14%; }
     #department .container-img .restaurants .department-content h1 a, #department .container-img .bodyism .department-content h1 a {
@@ -766,7 +1008,6 @@ footer .footer-partners-list {
     opacity: 0.3; }
 
 #department {
-  height: 550px;
   width: 100%;
   z-index: 111;
   overflow: hidden; }

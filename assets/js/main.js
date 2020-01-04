@@ -14,3 +14,17 @@ $(document).ready(function() {
     }
   });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  let smallDevice = window.matchMedia(
+    "(min-width: 576px) and (max-width: 767.98px)"
+  );
+
+  let extraSmallDevice = window.matchMedia("(max-width: 575.98px)");
+
+  if (smallDevice.matches || extraSmallDevice.matches) {
+    document.getElementById("headerArea").classList.add("header-small");
+  } else {
+    document.getElementById("headerArea").classList.remove("header-small");
+  }
+});

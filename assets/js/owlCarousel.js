@@ -17,11 +17,11 @@ $(document).ready(function() {
         nav: true
       },
       575: {
-        items: 2,
+        items: 1,
         nav: true
       },
       767: {
-        items: 3,
+        items: 1,
         nav: true
       },
       991: {
@@ -50,10 +50,10 @@ $(document).ready(function() {
         items: 1
       },
       575: {
-        items: 2
+        items: 1
       },
       767: {
-        items: 3
+        items: 1
       },
       991: {
         items: 1,
@@ -66,7 +66,7 @@ $(document).ready(function() {
     items: 1,
     nav: false,
     loop: true,
-    stagePadding: 200,
+    stagePadding: 0,
     autoplay: true,
     autoplayTimeout: 3000,
     margin: 35,
@@ -79,14 +79,19 @@ $(document).ready(function() {
         items: 1
       },
       575: {
-        items: 2
+        items: 1
       },
       767: {
-        items: 3
+        items: 1
       },
       991: {
         items: 1,
-        loop: true
+        loop: true,
+        stagePadding:0
+      },
+      1200:{
+        items:1,
+        stagePadding:200
       }
     }
   });

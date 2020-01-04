@@ -3,25 +3,31 @@
   color: white;
 }
 
+%btn-style {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
 #headerArea {
+  width: 100%;
   position: fixed;
-  height: 125px;
+  // height: 125px;
   z-index: 1000;
+  padding-bottom: 10px;
   @include transition(0.1 ease);
-  nav {
-    .menu {
-      .open-btn {
-        background-color: transparent;
-        border: none;
-        outline: none;
+  // nav {
+  .menu {
+    .open-btn {
+      @extend %btn-style;
+      @extend %header-common-style;
+      margin-left: 5px;
+      i {
         @extend %header-common-style;
-        margin-left: 5px;
-        i {
-          @extend %header-common-style;
-        }
       }
     }
   }
+  // }
   .logo {
     &-img {
       box-sizing: border-box;
@@ -35,10 +41,47 @@
     ul {
       padding-right: 20px;
       li {
-        padding: 0 10px;
+        padding-left: 10px;
         a {
           @extend %header-common-style;
         }
+      }
+    }
+  }
+
+  .small-header {
+    display: none;
+    padding-top: 10px;
+    .header-wrapper {
+      padding-bottom: 10px;
+      .menu {
+        .open-btn {
+          @extend %btn-style;
+          font-size: 25px;
+          color: white;
+        }
+      }
+      .logo {
+        .logo-photo {
+          width: 100%;
+          img {
+            width: 30%;
+          }
+        }
+      }
+      .call-us {
+        .call-btn {
+          @extend %btn-style;
+          font-size: 25px;
+          color: white;
+        }
+      }
+    }
+    .booking {
+      background-color: white;
+      padding: 7px 0;
+      a {
+        color: $color-roman-coffee;
       }
     }
   }
@@ -47,16 +90,16 @@
 .scrolled {
   background-color: white;
   box-shadow: 0 0 7px 0px #b7b2b2;
-  nav {
-    .menu {
-      .open-btn {
+  // nav {
+  .menu {
+    .open-btn {
+      color: $color-roman-coffee !important;
+      .icon-menu {
         color: $color-roman-coffee !important;
-        .icon-menu {
-          color: $color-roman-coffee !important;
-        }
       }
     }
   }
+  // }
   .reservation {
     ul {
       li {
@@ -75,7 +118,11 @@
   }
 }
 
-
-.left-side-nav{
+.left-side-nav {
   display: none;
+}
+
+.header-small {
+  // padding: 10px;
+  background-color: $color-roman-coffee;
 }

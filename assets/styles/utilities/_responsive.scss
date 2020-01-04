@@ -1,24 +1,442 @@
-// Extra large devices (large desktops, 1200px and up)
-@include extra-large {
-  @include col(xl);
-}
+// Extra small devices (portrait phones, less than 576px)
+@include extra-small {
+  @include col(xs);
+  #headerArea {
+    padding-bottom: 0 !important;
 
-// Large devices (desktops, 992px and up)
-@include large {
-  @include col(lg);
-}
+    .main-header {
+      display: none;
+    }
+    .small-header {
+      display: block !important;
+    }
+    .left-side-nav {
+      .sub-navigation {
+        display: none;
+      }
+    }
+  }
 
-// Medium devices (tablets, 768px and up)
-@include medium {
-  @include col(md);
+  #mainSlider {
+    top: 80px;
+    .main-slider-header {
+      top: 15% !important;
+      h1 {
+        font-size: 35px !important;
+      }
+    }
+    .main-slider-photos {
+      .owl-nav {
+        width: 80% !important;
+        top: 55% !important;
+      }
+    }
+  }
+
+  #mainContent {
+    .content {
+      padding: 60px 20px !important;
+      &-header {
+        h1 {
+          font-size: 35px;
+        }
+      }
+      &-text {
+        p {
+          font-size: 20px !important;
+        }
+      }
+    }
+    .content-images-list {
+      display: none;
+    }
+  }
+
+  #members {
+    .members-list {
+      flex-wrap: wrap;
+      &-item {
+        margin-bottom: 5%;
+      }
+    }
+  }
+
+  #momentsSlider {
+    display: none;
+  }
+
+  #department {
+    .row {
+      display: block;
+      .container-img {
+        width: 100%;
+        height: 450px;
+        .department-content {
+          top: 8% !important;
+          padding: 75px 0 !important;
+          h1 {
+            a {
+              font-size: 3em !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #marisByExperiences {
+    .header-title {
+      h1 {
+        font-size: 35px;
+      }
+    }
+    .maris-by-experiences-list-item {
+      display: block;
+      .experience-photo {
+        width: 100% !important;
+        // a{
+        //   display: inline-block;
+        //   width: 100%;
+        //   img{
+        //     width: 100%;
+        //   }
+        // }
+      }
+      .experience-content {
+        padding: 20px 25px !important;
+        width: 100% !important;
+        .header-title {
+          padding: 18px 0;
+        }
+      }
+    }
+  }
+
+  footer {
+    .footer-main-contacts {
+      .get-in-touch {
+        padding: 0 !important;
+        .address {
+          display: none;
+        }
+        &-details {
+          margin-bottom: 10%;
+        }
+      }
+      nav {
+        ul {
+          display: block;
+          li {
+            padding: 10px 0;
+            text-align: center;
+          }
+        }
+      }
+      .members-list {
+        display: block;
+        padding: 10px 0 !important;
+
+        &-item {
+          padding: 10px 0;
+        }
+      }
+    }
+    .footer-partners-list {
+      flex-wrap: wrap;
+    }
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
 @include small {
   @include col(sm);
+
+  #headerArea {
+    padding-bottom: 0 !important;
+
+    .main-header {
+      display: none;
+    }
+    .small-header {
+      display: block !important;
+    }
+    .left-side-nav {
+      .sub-navigation {
+        display: none;
+      }
+    }
+  }
+
+  #mainSlider {
+    top: 100px;
+    .main-slider-header {
+      h1 {
+        font-size: 35px !important;
+      }
+    }
+    .main-slider-photos {
+      .owl-nav {
+        width: 90% !important;
+        top: 55% !important;
+      }
+    }
+  }
+
+  #mainContent {
+    .content {
+      padding: 60px 110px !important;
+      &-header {
+        h1 {
+          font-size: 40px;
+        }
+      }
+    }
+    .content-images-list {
+      height: 700px;
+      .img-first {
+        height: 225px !important;
+      }
+      .img-second {
+        height: 250px !important;
+      }
+      .img-third {
+        top: 33% !important;
+        height: 500px !important;
+      }
+      .img-fourth {
+        height: 190px !important;
+      }
+    }
+  }
+
+  #members {
+    .members-list {
+      flex-wrap: wrap;
+      &-item {
+        margin-bottom: 5%;
+      }
+    }
+  }
+
+  #momentsSlider {
+    display: none;
+  }
+
+  #department {
+    .row {
+      display: block;
+      .container-img {
+        width: 100%;
+        height: 550px;
+      }
+    }
+  }
+
+  #marisByExperiences {
+    .header-title {
+      h1 {
+        font-size: 35px;
+      }
+    }
+    .maris-by-experiences-list-item {
+      display: block;
+      .experience-photo {
+        width: 100% !important;
+        // a{
+        //   display: inline-block;
+        //   width: 100%;
+        //   img{
+        //     width: 100%;
+        //   }
+        // }
+      }
+      .experience-content {
+        padding: 20px 25px !important;
+        width: 100% !important;
+        .header-title {
+          padding: 18px 0;
+        }
+      }
+    }
+  }
+
+  footer {
+    .footer-main-contacts {
+      .get-in-touch {
+        .address {
+          display: none;
+        }
+        &-details {
+          margin-bottom: 10%;
+        }
+      }
+      .members-list {
+        display: block;
+        &-item {
+          padding: 10px 0;
+        }
+      }
+    }
+    .footer-partners-list {
+      flex-wrap: wrap;
+    }
+  }
 }
 
-// Extra small devices (portrait phones, less than 576px)
-@include extra-small {
-  @include col(xs);
+// Medium devices (tablets, 768px and up)
+@include medium {
+  @include col(md);
+
+  #headerArea {
+    .left-side-nav {
+      .left-side-nav-content {
+        .sub-navigation {
+          display: none;
+        }
+      }
+    }
+  }
+  #mainSlider {
+    .main-slider-header {
+      h1 {
+        font-size: 60px !important;
+      }
+    }
+    .main-slider-photos {
+      .owl-nav {
+        width: 90% !important;
+      }
+    }
+  }
+  #mainContent {
+    .content {
+      padding: 60px 110px !important;
+      &-header {
+        h1 {
+          font-size: 40px;
+        }
+      }
+    }
+    .content-images-list {
+      height: 700px;
+      .img-first {
+        height: 225px !important;
+      }
+      .img-second {
+        height: 250px !important;
+      }
+      .img-third {
+        top: 33% !important;
+        height: 500px !important;
+      }
+      .img-fourth {
+        height: 190px !important;
+      }
+    }
+  }
+
+  #department {
+    height: 450px !important;
+    .department-content {
+      padding: 75px 20px !important;
+      top: 8% !important;
+      h1 {
+        a {
+          font-size: 3.1em !important;
+        }
+      }
+    }
+  }
+
+  #marisByExperiences {
+    .header-title {
+      h1 {
+        font-size: 35px;
+      }
+    }
+    .maris-by-experiences-list-item {
+      .experience-content {
+        padding: 0px 25px !important;
+        .header-title {
+          padding: 18px 0;
+        }
+      }
+    }
+  }
+
+  footer {
+    .footer-main-contacts {
+      nav {
+        ul {
+          li {
+            margin-right: 0 !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@include large {
+  @include col(lg);
+
+  #mainSlider {
+    .main-slider-photos {
+      .owl-nav {
+        width: 92% !important;
+      }
+    }
+  }
+
+  #mainContent {
+    .content {
+      &-header {
+        h1 {
+          font-size: 35px;
+        }
+      }
+      &-text {
+        p {
+          font-size: 20px !important;
+        }
+      }
+    }
+    .content-images-list {
+      .img-first {
+        height: 220px !important;
+      }
+      .img-second {
+        height: 280px !important;
+      }
+      .img-third {
+        height: 520px !important;
+      }
+      .img-fourth {
+        top: 78% !important;
+        height: 180px !important;
+      }
+    }
+  }
+
+  #marisByExperiences {
+    .header-title {
+      h1 {
+        font-size: 40px;
+      }
+    }
+    .maris-by-experiences-list-item {
+      .experience-content {
+        padding: 0px 40px !important;
+        .header-title {
+          padding: 25px 0;
+        }
+      }
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include extra-large {
+  @include col(xl);
 }

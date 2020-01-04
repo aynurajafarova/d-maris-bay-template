@@ -6,12 +6,12 @@
   overflow: hidden;
   .department-content {
     position: absolute;
-    z-index: 1111;
+    z-index: 111;
     border: 5px solid white;
     width: 70%;
     height: 65%;
     box-sizing: border-box;
-    padding: 70px;
+    padding: 75px 45px;
     top: 18%;
     left: 14%;
     h1 {
@@ -35,7 +35,7 @@
 }
 
 #department {
-  height: 550px;
+//   height: 550px;
   width: 100%;
   z-index: 111;
   overflow: hidden;
