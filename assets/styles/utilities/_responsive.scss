@@ -11,6 +11,11 @@
       display: block !important;
     }
     .left-side-nav {
+      &-content {
+        .main-nav {
+          padding: 30px 50px 60px 50px;
+        }
+      }
       .sub-navigation {
         display: none;
       }
@@ -161,6 +166,11 @@
       display: block !important;
     }
     .left-side-nav {
+      &-content {
+        .main-nav {
+          padding: 30px 80px 60px 80px;
+        }
+      }
       .sub-navigation {
         display: none;
       }

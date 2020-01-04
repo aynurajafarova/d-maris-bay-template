@@ -233,6 +233,8 @@ a {
       display: none; }
     #headerArea .small-header {
       display: block !important; }
+    #headerArea .left-side-nav-content .main-nav {
+      padding: 30px 50px 60px 50px; }
     #headerArea .left-side-nav .sub-navigation {
       display: none; }
 
@@ -349,6 +351,8 @@ a {
       display: none; }
     #headerArea .small-header {
       display: block !important; }
+    #headerArea .left-side-nav-content .main-nav {
+      padding: 30px 80px 60px 80px; }
     #headerArea .left-side-nav .sub-navigation {
       display: none; }
 
@@ -678,7 +682,7 @@ footer .footer-main-contacts {
     footer .footer-main-contacts .get-in-touch-details .social-networks-list {
       margin: 15px auto; }
       footer .footer-main-contacts .get-in-touch-details .social-networks-list-item {
-        margin-right: 4%; }
+        margin-right: 5%; }
         footer .footer-main-contacts .get-in-touch-details .social-networks-list-item a {
           font-size: 20px;
           padding: 6px;
