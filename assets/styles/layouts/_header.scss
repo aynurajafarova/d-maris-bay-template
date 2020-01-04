@@ -12,11 +12,9 @@
 #headerArea {
   width: 100%;
   position: fixed;
-  // height: 125px;
   z-index: 1000;
   padding-bottom: 10px;
   @include transition(0.1 ease);
-  // nav {
   .menu {
     .open-btn {
       @extend %btn-style;
@@ -27,7 +25,6 @@
       }
     }
   }
-  // }
   .logo {
     &-img {
       box-sizing: border-box;
@@ -90,7 +87,6 @@
 .scrolled {
   background-color: white;
   box-shadow: 0 0 7px 0px #b7b2b2;
-  // nav {
   .menu {
     .open-btn {
       color: $color-roman-coffee !important;
@@ -99,7 +95,6 @@
       }
     }
   }
-  // }
   .reservation {
     ul {
       li {
@@ -123,6 +118,5 @@
 }
 
 .header-small {
-  // padding: 10px;
   background-color: $color-roman-coffee;
 }

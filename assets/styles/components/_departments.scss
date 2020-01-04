@@ -35,14 +35,12 @@
 }
 
 #department {
-//   height: 550px;
   width: 100%;
   z-index: 111;
   overflow: hidden;
   .container-img {
     overflow: hidden;
     width: 50%;
-
     .restaurants {
       @extend %img-styles;
       background-image: url("../images/RH-0449-D_Marisedited.534dbc6e4f384855f885f656692a6a22.jpg");
